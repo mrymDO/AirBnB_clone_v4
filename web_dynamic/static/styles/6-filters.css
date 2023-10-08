@@ -40,6 +40,12 @@ button:hover {
     margin-top: 0;
     font-weight: 400;
     font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 200px;
+    height: 17px;
+    text-overflow: ellipsis;
+    display: inline-block;
 }
 .locations {
     height: 100%;
